@@ -1,0 +1,26 @@
+:root{
+     --DarkBlue-intro-and-email-sign-up-background: hsl(217, 28%, 15%);
+     --DarkBlue-main-background: hsl(218, 28%, 13%);
+     --DarkBlue-footer-background: hsl(216, 53%, 9%);
+     --DarkBlue-testimonials-background: hsl(219, 30%, 18%);
+     --Cyan-inside-call-to-action-gradient: #65e2d9;
+}
+
+@font-face {
+     font-family: 'Open Sans' ;
+     src: url(./fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+     font-family: 'Raleway';
+     src: url(/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+body{
+     background-color: var(--DarkBlue-main-background);
+     font-family: 'Open Sans';
+}
+
+h1,h2{
+     font-family: 'Raleway';
+}
