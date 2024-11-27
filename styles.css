@@ -3,9 +3,9 @@
      --DarkBlue-main-background: hsl(218, 28%, 13%);
      --DarkBlue-footer-background: hsl(216, 53%, 9%);
      --DarkBlue-testimonials-background: hsl(219, 30%, 18%);
-     --Cyan-inside-call-to-action-gradient: #65e2d9;
-     --Blue-inside-call-to-action-gradient: #339ecc;
-     --Light-Red-error: hsl(0, 100%, 63%);
+     --Cyan-inside-call-to-action-gradient: hsl(176, 68%, 64%);
+     --Blue-inside-call-to-action-gradient: hsl(198, 60%, 50%);
+     --Light-Red-error: #ff4242;
 }
 
 @font-face {
@@ -34,7 +34,4 @@ h1,h2{
 #footer{
      background-color: var(--DarkBlue-footer-background);
 }
-/* 
-input[type="email"]{
-     outline: var(--Light-Red-error);
-} */
+ 
